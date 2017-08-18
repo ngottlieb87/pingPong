@@ -4,6 +4,7 @@
   background-size:100%;
   color: white;
 }
+
 #numInput{
   background-color:#66a867;
   color:white;
@@ -11,6 +12,7 @@
   padding: 20px;
   font-size: 20px;
 }
+
 #label{
   color:white;
   font-size: 20px;
@@ -18,13 +20,17 @@
   text-shadow: 2px 2px 4px #000000;
   font-family: 'Righteous', cursive;
 }
+
 #clear{
   float : right;
 }
+
 .jumbotron{
+  margin-top : 30px;
   background-image: url("http://www.allentowntoy.com/newsite/image/cache/data/equipment/balls/103-600x600.jpg");
   background-size: 100%;
 }
+
 .jumbotron h1{
   font-size: 8em;
   text-align: center;
@@ -33,6 +39,7 @@
   text-shadow: 2px 2px 4px #000000;
   font-family: 'Righteous', cursive;
 }
+
 .rules{
   color: white;
   font-size: 20px;
@@ -43,19 +50,23 @@
 .well{
   margin-top: 20px;
 }
+
 .well h2{
   text-align: center;
   font-size: 5em;
   font-family: 'Courgette', cursive;
 }
+
 body{
   background-image: url("http://alphadipity.com/wp-content/uploads/2013/07/texture.jpg");
 
 }
+
 ul{
   font-size: 2em;
   font-family: 'Courgette', cursive;
 }
+
 button{
   float: right;
   text-shadow: 2px 2px 4px #000000;

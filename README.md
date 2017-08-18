@@ -1,4 +1,4 @@
-# Ping Pong!
+# Ping-Pong!
 
 #### _Determines where return will be a number, the word Ping, Pong, or Ping-Pong_
 
@@ -13,6 +13,7 @@ _This webpage will take a users number and will count up to that number. The dis
 * _Open Web Browser._
 * _type https://ngottlieb87.github.io/pingPong into url bar._
 * _In terminal open use git to clone repository to determined destination_
+* _Open file with which ever text-editor you prefer_
 
 ## Known Bugs
 
@@ -23,6 +24,7 @@ _This webpage will take a users number and will count up to that number. The dis
 * _Numbers divisible by "3" will display the word Ping and the list will continue till another number that is divisible by "3","5", or "3 and 5" are met._
 * _Numbers divisible by "5" will display the word Pong and the list will continue till another number that is divisible by "3","5", or "both" are met._
 * _Numbers divisible by bother "3" and "5" will display the word Ping-Pong and the list will continue till another number that is divisible by "3","5", or "3 and 5" are met._
+
 ## Support and contact details
 
 _For support you can reach me at:_
