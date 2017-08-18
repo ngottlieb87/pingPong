@@ -31,7 +31,7 @@
       var result = pingPong(number);
       result.forEach(function(i){
         $("#output ul").append("<li>" + i + "</li>");
-        $("#output").show();
+        $("#output").show(2000);
       });
     });
   });
