@@ -7,7 +7,7 @@
       indvNum.push(i);
     }
 
-    indvNum.reverse();
+     var indvNum= indvNum.reverse();
 
     for(var i=0; i<=indvNum[i]; i++){
       if(indvNum[i] % 3 === 0 && indvNum[i] % 5 !== 0){
@@ -20,16 +20,18 @@
         numPingPong.push(indvNum[i]);
       }
     }
-    listPingPong = numPingPong;
+    var listPingPong = numPingPong;
     return listPingPong;
   }
 
   $(document).ready(function(){
     $("#pingPong").submit(function(event){
       event.preventDefault();
-
       var number = parseInt($("#numInput").val());
       var result = pingPong(number);
-
+        result.forEach(function(i){
+        $("#output ul").append("<li>" + i + "</li>");
+        $("#output").show();
+      });
     });
   });
