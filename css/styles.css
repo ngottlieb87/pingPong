@@ -1,3 +1,20 @@
 #output{
   display: none;
+  background-image: url("http://thatonesportsshow.com/wp-content/uploads/2015/09/pingpong.jpg");
+  background-size:100%;
+  color: white;
+}
+.jumbotron{
+  
+}
+.well{
+  margin-right: -10%;
+}
+.well h2{
+  text-align: center;
+  font-size: 5em;
+}
+ul{
+  font-size: 2em;
+  font-family:
 }
