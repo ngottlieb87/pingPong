@@ -32,9 +32,11 @@
       result.forEach(function(i){
         $("#output ul").append("<li>" + i + "</li>");
         $("#output").show(2000);
+
+        $("button#clear").click(function(){
+          $("#output li").remove();
+          $("#output h2").remove();
+        });
       });
     });
-    $("button#clear").click(function(){
-      $("#output").remove();
-      });
   });
