@@ -7,6 +7,14 @@
 #numInput{
   background-color:#538c43;
   color:white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+#label{
+  color:white;
+  font-size: 20px;
+  float: right;
 }
 
 .jumbotron h1{
@@ -17,10 +25,9 @@
 }
 .rules{
   color: white;
+  font-size: 20px;
 }
-.numInput{
-  color: red;
-}
+
 .well{
   margin-top: 20px;
 }
@@ -30,9 +37,12 @@
 }
 body{
   background-image: url("http://alphadipity.com/wp-content/uploads/2013/07/texture.jpg");
-  background-size;
+
 }
 ul{
   font-size: 2em;
   font-family:
+}
+button{
+  float:right;
 }
