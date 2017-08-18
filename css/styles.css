@@ -5,7 +5,7 @@
   color: white;
 }
 #numInput{
-  background-color:#538c43;
+  background-color:#66a867;
   color:white;
   margin: 10px;
   padding: 20px;
@@ -15,6 +15,8 @@
   color:white;
   font-size: 20px;
   float: right;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Righteous', cursive;
 }
 #clear{
   float : right;
@@ -27,12 +29,15 @@
   font-size: 8em;
   text-align: center;
   padding: 10%;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;;
+  color: #f9f3d1;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Righteous', cursive;
 }
 .rules{
   color: white;
   font-size: 20px;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Courgette', cursive;
 }
 
 .well{
@@ -41,6 +46,7 @@
 .well h2{
   text-align: center;
   font-size: 5em;
+  font-family: 'Courgette', cursive;
 }
 body{
   background-image: url("http://alphadipity.com/wp-content/uploads/2013/07/texture.jpg");
@@ -48,8 +54,11 @@ body{
 }
 ul{
   font-size: 2em;
-  font-family:
+  font-family: 'Courgette', cursive;
 }
 button{
-  float:right;
+  float: right;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Righteous', cursive;
+  margin: 5px;
 }

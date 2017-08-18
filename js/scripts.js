@@ -29,10 +29,10 @@
       event.preventDefault();
       var number = parseInt($("#numInput").val());
       var result = pingPong(number);
+
       result.forEach(function(i){
         $("#output ul").append("<li>" + i + "</li>");
         $("#output").show(2000);
-
         $("button#clear").click(function(){
           $("#output li").remove();
           $("#output h2").remove();
