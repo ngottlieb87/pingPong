@@ -6,9 +6,8 @@
     for(i = number; i > 0; i--){
       indvNum.push(i);
     }
-    indvNum= indvNum.sort(function(a,b){
-      return a-b;
-    });
+
+    indvNum.reverse();
 
     for(var i=0; i<=indvNum[i]; i++){
       if(indvNum[i] % 3 === 0 && indvNum[i] % 5 !== 0){
@@ -21,8 +20,7 @@
         numPingPong.push(indvNum[i]);
       }
     }
-    listPingPong = numPingPong.join(" ");
-
+    listPingPong = numPingPong;
     return listPingPong;
   }
 
@@ -33,6 +31,5 @@
       var number = parseInt($("#numInput").val());
       var result = pingPong(number);
 
-      $("#output").show().text(result);
     });
   });
