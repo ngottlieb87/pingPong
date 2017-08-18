@@ -4,15 +4,33 @@
   background-size:100%;
   color: white;
 }
-.jumbotron{
-  
+#numInput{
+  background-color:#538c43;
+  color:white;
+}
+
+.jumbotron h1{
+  font-size: 8em;
+  text-align: center;
+  padding: 10%;
+  color:black;
+}
+.rules{
+  color: white;
+}
+.numInput{
+  color: red;
 }
 .well{
-  margin-right: -10%;
+  margin-top: 20px;
 }
 .well h2{
   text-align: center;
   font-size: 5em;
+}
+body{
+  background-image: url("http://alphadipity.com/wp-content/uploads/2013/07/texture.jpg");
+  background-size;
 }
 ul{
   font-size: 2em;
