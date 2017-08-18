@@ -16,12 +16,16 @@
   font-size: 20px;
   float: right;
 }
-
+.jumbotron{
+  background-image: url("http://www.allentowntoy.com/newsite/image/cache/data/equipment/balls/103-600x600.jpg");
+  background-size: 100%;
+}
 .jumbotron h1{
   font-size: 8em;
   text-align: center;
   padding: 10%;
-  color:black;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;;
 }
 .rules{
   color: white;
