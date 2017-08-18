@@ -34,4 +34,7 @@
         $("#output").show(2000);
       });
     });
+    $("button#clear").click(function(){
+      $("#output").remove();
+      });
   });
