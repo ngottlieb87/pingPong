@@ -19,6 +19,8 @@ _This webpage will take a users number and will count up to that number. The dis
 
 * _When display is cleared the header "Results" wont load again._
 
+* _Numbers larger than 7000 might crash your browser._
+
 ## Specs
 
 * _Numbers divisible by "3" will display the word Ping and the list will continue till another number that is divisible by "3","5", or "3 and 5" are met._
