@@ -25,11 +25,6 @@ _This webpage will take a users number and will count up to that number. The dis
 * _Numbers divisible by "5" will display the word Pong and the list will continue till another number that is divisible by "3","5", or "both" are met._
 * _Numbers divisible by bother "3" and "5" will display the word Ping-Pong and the list will continue till another number that is divisible by "3","5", or "3 and 5" are met._
 
-## Support and contact details
-
-_For support you can reach me at:_
-_nogpdx@gmail.com_
-
 ## Technologies Used
 
 _HTML, CSS, Bootstrap, javascript, jquery_
